@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url("img\cover_asassianc.jpg");
+    background-size: cover;
+}
+
+
+.containner{
+    width: 360px;
+    margin: 6% auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow:2px 2px 5px maroon;
+    background:#aaa;
+    
+}
+
+.header{
+    text-align: center;
+    padding: 70px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.loginbox{
+    text-align: center;
+    
+}
+
+/* .loginbox button{
+    background-color: maroon;
+} */
+
+.loginbox input, button{
+    width:250px ;
+    height: 35px;
+    font-size: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    background:#aaa;
+}
+
